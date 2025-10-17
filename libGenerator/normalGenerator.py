@@ -146,6 +146,8 @@ class Generator:
             json.dump(mixin_cfg, f, indent=4)
             f.close()
         os.rename("template_mod.mixins.json", self.mod_id + ".mixins.json")
+        os.chdir("assets")
+        os.rename("template_mod", self.mod_id)
         os.chdir(mod_abspath)
         with open("build.gradle", "w+") as f:
             f.write("plugins {\n"
