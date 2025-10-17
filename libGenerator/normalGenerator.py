@@ -239,7 +239,7 @@ class Generator:
                     "	modImplementation \"net.fabricmc:fabric-loader:${project.loader_version}\"\n"
                     "}\n"
                     "\n" +
-                    "String MIXIN_CONFIG_PATH = '{}.json'\n".format(self.mod_id + ".mixins.json") +
+                    "String MIXIN_CONFIG_PATH = '{}.json'\n".format(self.mod_id + ".mixins") +
                     "String LANG_DIR = 'assets/{}/lang'\n".format(self.mod_id) +
                     "JavaVersion JAVA_COMPATIBILITY\n"
                     "if (mcVersion >= 12005) {\n"
