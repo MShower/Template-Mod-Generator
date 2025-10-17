@@ -1,0 +1,177 @@
+ModNameArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#modname {
+    margin-bottom: 1;
+}
+ModIDArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#modid {
+    margin-bottom: 1;
+}
+PackageNameArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#packagename {
+    margin-bottom: 1;
+}
+ModVersionArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#modversion {
+    margin-bottom: 1;
+}
+DescriptionArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#description {
+    margin-bottom: 1;
+}
+ProjectLicenseArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#projectlicense {
+    margin-bottom: 1;
+}
+LicenseFullNameArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#licensefullname {
+    margin-bottom: 1;
+}
+AuthorsArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#authors {
+    margin-bottom: 1;
+}
+HomePageArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#homepage {
+    margin-bottom: 1;
+}
+ModSourceArgumentInput {
+    background: $boost;
+    height: 7;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#modsource {
+    margin-bottom: 1;
+}
+KotlinArgumentInput {
+    background: $boost;
+    height: auto;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+MojangMappingsArgumentInput {
+    background: $boost;
+    height: auto;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+DatagenArgumentInput {
+    background: $boost;
+    height: auto;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+SplitSourcesArgumentInput {
+    background: $boost;
+    height: auto;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+AdvancedOptionsTips {
+    background: $boost;
+    height: 3;
+    min-width: 50;
+    padding: 1;
+}
+
+AdvancedOptions {
+    background: $boost;
+    height: auto;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+#advancedoptions {
+    margin-bottom: 1;
+}
+
+#instruction {
+    background: $surface;
+    color: $text;
+    border: round $accent;
+    padding: 1 2;
+    content-align: left middle;
+}
+
+Checkbox {
+    width: 100%;
+}
+
+#generate {
+    margin: 1;
+    width: 100%;
+    border: round gray;
+}
+
+GenerateOptions {
+    background: $boost;
+    height: auto;
+    min-width: 50;
+    padding: 1;
+}
+
+#success {
+    display: none
+}
+.success #success {
+    display: block
+}
