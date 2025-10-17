@@ -146,7 +146,6 @@ class AdvancedOptionsInstruction(VerticalGroup):
             "* A common source of server crashes comes from calling client only code when installed on a server. This "
             "option configures your mod to be built from two source sets, client and main. This enforces a clear "
             "separation between the client and server code."
-            "* "
             ,
             id="instruction")
 
