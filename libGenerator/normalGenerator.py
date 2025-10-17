@@ -65,7 +65,7 @@ class Generator:
         os.chdir("mixins")
         with open("ExampleMixin.java", "w") as f:
             f.write(
-                "package {}.mixin;\n".format(self.package_name) +
+                "package {}.mixins;\n".format(self.package_name) +
                 "\n"
                 "import net.minecraft.server.MinecraftServer;\n"
                 "import org.spongepowered.asm.mixin.Mixin;\n"
